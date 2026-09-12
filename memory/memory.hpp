@@ -6,7 +6,7 @@ class MEMORY {
     public:
         uint8_t m[4096]{};
         MEMORY(){
-            LOGGER::getIstance().display("MEMORY INIT");
+            LOGGER::getIstance().display("MEMORY INIT","GREEN");
         }
         void print_memory();
 };
